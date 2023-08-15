@@ -1,0 +1,14 @@
+public class Constructor{
+	public static void main(String[] args) {
+		P p1 = new P ("smich", 80);
+		System.out.println(p1.name + p1.age);
+	}
+	}
+class P {
+	String name;
+	int age;
+	public P(String pname, int page) {  //构造器
+		name = pname;
+		age = page;
+	}
+}

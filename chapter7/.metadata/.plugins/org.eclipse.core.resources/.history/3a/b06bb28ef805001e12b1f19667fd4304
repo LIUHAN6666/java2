@@ -1,0 +1,18 @@
+public class ConstructorExercise{
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		System.out.println("p1的信息=" + p1.age + p1.name);
+	}
+	}
+class Person {
+	String name;
+	int age;
+	public Person() {
+		age = 18;
+		
+	}
+	public Person(String pname, int page) {
+		name = pname;
+		age = page;
+	}
+}

@@ -1,0 +1,12 @@
+public class VarParameter {
+	public static void main(String[] args) {
+		Hspmethod n = new Hspmethod();
+		n.sum(1, 1, 1, 1, 1, 1);
+	}
+}
+class Hspmethod {
+	public int sum(int... nums) {
+		System.out.println("接收的个数=" + nums.length);
+		return 0;
+	}
+}

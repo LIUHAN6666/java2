@@ -1,0 +1,14 @@
+public class Chomework01{
+	public static void main(String[] args) {
+	}
+	}
+class A02 {
+	public int find (String findStr, String[] strs) {
+		for (j = 0; j < strs.length; j++) {
+			if(findStr.equals(strs[j])) {
+				return j;
+			}
+		}
+		return -1;
+	}
+}

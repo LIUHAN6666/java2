@@ -1,0 +1,27 @@
+public class Chomework05{
+	public static void main(String[] args) {
+		Cale cale = new Cale(2, 4);
+		System.out.print(cale.sum() + " " + cale.minus() + " " +
+				cale.mul() +" " +cale.div());
+	}
+}
+class Cale {
+	double num1;
+	double num2;
+	public Cale (double num1, double num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	public double sum () {
+		return num1 + num2;
+	}
+	public double minus () {
+		return num1 - num2;
+	}
+	public double mul () {
+		return num1 * num2;
+	}
+	public double div () {
+		return num1 / num2;
+	}
+}

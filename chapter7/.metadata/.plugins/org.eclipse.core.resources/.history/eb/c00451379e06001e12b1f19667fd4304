@@ -1,0 +1,18 @@
+public class Chomework04{
+	public static void main(String[] args) {
+		//double radius = 3;
+		Crice c = new Crice();
+		c.area();
+		c.Len();
+		System.out.print(c.Len() + c.area());
+	}
+	}
+class Crice {
+	double radius = 3;
+	public double area() {
+		return radius * radius * Math.PI;
+	}
+	public double Len() {
+		return radius * 2 * Math.PI;
+	}
+}

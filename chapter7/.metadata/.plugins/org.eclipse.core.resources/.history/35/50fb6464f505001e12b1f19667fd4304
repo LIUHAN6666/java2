@@ -1,0 +1,13 @@
+public class VarScopeDetail{
+	public static void main(String[] args) {
+		Person p = new Person();
+		p.say();
+	}
+	}
+class Person {
+	String name = "jack";
+	public void say() {
+		String name = "king";
+		System.out.println("name=" + name);
+	}
+}
